@@ -834,10 +834,10 @@ void CGrayScaleImageProcessingBeta1Doc::OnEdge1()
 			}
 		}
 	}
-	/*후처리 (마스크 값의 합계에 따라서...)
+	//후처리 (마스크 값의 합계에 따라서...)
 	for (int i = 0; i < m_outH; i++)
 		for (int k = 0; k < m_outW; k++)
-			tmpOutImage[i][k] += 127.0;*/
+			tmpOutImage[i][k] += 127.0;
 
 			// 임시 출력 영상--> 출력 영상. 
 	for (int i = 0; i < m_outH; i++) {
